@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color:yellow;
+}
+.fer {
+    color: red; 
+}
+a{
+    color: rgb(238, 255, 0);
+}
+h1{
+    font-size: xx-large;
+    margin: 40px;
+}
+h2{
+    font-size: x-large;
+    margin: 20px;
+}
+ul{
+    font-size: medium;
+    margin-top: 15px;
+    margin-left: 20px; 
+}
+li{
+    font-size: medium;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+img{
+    height: 100%;
+}
+.content-left{
+    text-align: left;
+    width: 72%;
+    margin: 5px;
+    border: 11px solid rgb(85, 7, 7);
+    border-radius: 10px 10px 10px 10px; 
+}
+.content-right{
+    text-align: right;
+    width: 70%;
+    padding-right: 40px;
+    margin: 5px;
+    border: 10px solid rgb(85, 7, 7);
+    border-radius: 10px 10px 10px 10px; 
+}
