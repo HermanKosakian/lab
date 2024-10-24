@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color:yellow;
+}
+.fer {
+    color: red; 
+}
+a{
+    color: rgb(238, 255, 0);
+}
+h1{
+    font-size: xx-large;
+    margin: 40px;
+}
+h2{
+    font-size: x-large;
+    margin: 20px;
+}
+ul{
+    font-size: medium;
+    margin-top: 15px;
+    margin-left: 20px; 
+}
+li{
+    font-size: medium;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+img{
+    height: 100%;
+}
+.content-left{
+    text-align: left;
+    width: 72%;
+    margin: 5px;
+    border: 11px solid rgb(85, 7, 7);
+    border-radius: 10px 10px 10px 10px; 
+}
+.content-right{
+    text-align: right;
+    width: 70%;
+    padding-right: 40px;
+    margin: 5px;
+    border: 10px solid rgb(85, 7, 7);
+    border-radius: 10px 10px 10px 10px; 
+}
+.conteiner{
+    background-color: rgb(248, 1, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(229, 255, 0);
+    
+}
+.block-2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(29, 0, 160);
+    
+}
+.conteiner-2{
+    background-color: rgb(96, 0, 175);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.conteiner-3{
+    background-color: rgb(7, 163, 235);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.block-3{
+    background-color: rgb(7, 235, 75);
+    height: 200px;
+    width: 200px; 
+    border: 10px solid rgb(2, 106, 124);
+    border-radius: 10px 10px 10px 10px; 
+}
+.position{
+    display: flex;
+    border: 10px solid rgb(255, 0, 0);
+    height: 600px;
+    width: 600px;
+}
+.sq1{
+    position: relative;
+    left: 75px;
+    top: 75px; 
+    border: 3px solid rgb(255, 0, 0);
+    height: 200px;
+    width: 200px;
+
+}
+.sq2{
+    position: relative;
+    border: 3px solid rgb(4, 0, 255);
+    height: 200px;
+    width: 200px;
+    top: 200px;
+}
+.sq3{
+    position: relative;
+    border: 3px solid rgb(7, 209, 0);
+    height: 200px;
+    width: 200px;
+    right:75px ;
+    top: 325px;
+
+}
+.shu{
+    height: 100px;
+    width: 100px; 
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
