@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Лабораторная работа 6 </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ </head>
+    <body>
+        <div class="col-4">
+          <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link" href="#carouselExampleInterval">изображения</a>
+              <a class="nav-link" href="#collapseOne">биография</a>
+              <a class="nav-link" href="#123">известные Фильмы</a>
+            </nav>
+          </nav>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">лаб6</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="info.html">Рэйф Файнс <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="films.html">Фильмы<span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="10000">
+                <img src="р1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-interval="2000">
+                <img src="р2.jfif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="р3.jfif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="р4.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            
+          </div>
+          <div id="accordion">
+            <div class="card1"style="width: 100%;">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    О персоне
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  
+                  <br>Карьера  Актер, Продюсер, Режиссер</br>
+                  <br>Рост  1.8 м</br>
+                  <br>Дата рождения  22 декабря, 1962 • Козерог • 61 год</br>
+                  <br>Место рождения  Ипсвич, Саффолк, Англия, Великобритания</br>
+                  <br>Жанры  драма, приключения, триллер</br>
+                  <br>Супруга  Алекс Кингстон (развод)</br>
+                  <br>Всего фильмов  183, 1984 — 2025</br>
+                </div>
+              </div>
+            </div>
+            <div class="card" id="123" style="width: 33%;">
+              <img class="card-img-top" src="список.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Список Шиндлера</h5>
+                <p class="card-text">Фильм рассказывает реальную историю загадочного Оскара Шиндлера, члена нацистской партии, преуспевающего фабриканта, спасшего во время Второй мировой войны почти 1200 евреев.</p>
+                <a href="https://www.kinopoisk.ru/film/329/" class="btn btn-primary">кинопоиск</a>
+              </div>
+            </div>
+            <div class="card" style="width: 33%;">
+              <img class="card-img-top" src="отель.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Отель "Гранд Будапешт"</h5>
+                <p class="card-text">Фильм рассказывает об увлекательных приключениях легендарного консьержа Густава и его юного друга, портье Зеро Мустафы. Сотрудники гостиницы становятся свидетелями кражи и поисков бесценных картин эпохи Возрождения, борьбы за огромное состояние богатой семьи и… драматических изменений в Европе между двумя кровопролитными войнами XX века.</p>
+                <a href="https://www.kinopoisk.ru/film/683999/" class="btn btn-primary">кинопоиск</a>
+              </div>
+            </div>
+            <div class="card" style="width: 33%;">
+              <img class="card-img-top" src="брюгге.webp" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Залечь на дно в Брюгге</h5>
+                <p class="card-text">После того, как наемные убийцы Рэй и Кен запороли в Лондоне важное задание, их злобный шеф Гарри приказывает им отправиться в Брюгге и не высовываться. Оказавшись в старинном бельгийском городке, Рэй от нечего делать флиртует с местной красоткой, пока Кен наслаждается жизнью и неожиданным отпуском. Кажется, ничто не предвещает беду в спокойном городе...</p>
+                <a href="https://www.kinopoisk.ru/film/276295/" class="btn btn-primary">кинопоиск</a>
+              </div>
+            </div>
+            <style>
+              .card1{
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                justify-content: center;
+              }
+              .card{
+                display: table-cell; 
+                vertical-align: top;
+                text-align: center;
+              }
+            </style>
+    </body>
